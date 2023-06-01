@@ -1,0 +1,29 @@
+2023-04-24 15:57:06,119 - mytest - INFO - fed_learn_cifar_cnn
+2023-04-24 15:57:55,180 - mytest - INFO - Namespace(BS=array([-50,   0,  10]), Jmax=50, K=array([3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000]), L=40, M=10, N=5, P0=0.1, PL_RB=0.0006324555320336759, RIS=array([ 0,  0, 10]), SNR=95.0, U=40, alpha_direct=3.76, bit=1, bs=512, d_RB=50.0, d_UR=array([ 16.404864,  11.611048,  17.607499,  14.67457 ,  10.817137,
+       118.363049, 103.437359, 104.630478, 101.637159, 109.287913]), d_direct=array([ 43.251767,  45.289205,  37.307285,  41.677311,  49.019428,
+       168.233164, 153.135423, 154.473372, 151.436609, 159.139774]), dataset='femnist', delta=0.01, device=device(type='cpu'), dx=array([ -8.984042,  -5.837044, -14.181905,  -9.783448,  -2.141061,
+       117.925862, 102.511706, 104.144858, 101.029344, 108.816197]), dx1=array([ -8.984042,  -5.837044, -14.181905,  -9.783448,  -2.141061]), dx2=array([117.925862, 102.511706, 104.144858, 101.029344, 108.816197]), dy=array([-9.402476, -0.863336,  2.982881, -4.430254,  3.525098,  1.817256,
+       -9.520362,  1.177082, -4.814951, -1.697976]), epislon=1e-08, epochs=200, frac=1.0, gpu=0, iid='True', kernel_num=9, kernel_sizes='3,4,5', local_bs=256, local_bs2=32, local_ep=1, lr=0.001, lr_scheduler=False, max_pool='True', mode='AWGN', model='cnn', momentum=0, nit=100, norm='batch_norm', num_channels=1, num_classes=10, num_filters=32, num_users=100, seed=1, set=2, sigma=3.162277660168379, snr=-10, split='user', stopping_rounds=10, tau=1, thd=4.2, threshold=0.01, verbose=0)
+2023-04-24 15:57:57,400 - mytest - INFO - error rate in theory with OPT RIS: [0.015038 0.004512 0.027869 0.006656]
+2023-04-24 15:57:57,400 - mytest - INFO - error rate in practice with OPT RIS: [0.014214 0.00457  0.027559 0.00617 ]
+2023-04-24 15:57:57,401 - mytest - INFO - Train loss running Proposed: 2.3415
+2023-04-24 15:58:03,715 - mytest - INFO - -----Train loss(testing) ----------- running Proposed: 2.2844
+2023-04-24 15:58:03,715 - mytest - INFO - ------Test acc----- running Proposed: 19.9000
+2023-04-24 15:58:05,853 - mytest - INFO - error rate in theory with OPT RIS: [0.015038 0.004512 0.027869 0.006656]
+2023-04-24 15:58:05,853 - mytest - INFO - error rate in practice with OPT RIS: [0.014534 0.004068 0.028016 0.006536]
+2023-04-24 15:58:05,854 - mytest - INFO - Train loss running Proposed: 2.2221
+2023-04-24 15:58:12,215 - mytest - INFO - -----Train loss(testing) ----------- running Proposed: 2.2677
+2023-04-24 15:58:12,215 - mytest - INFO - ------Test acc----- running Proposed: 27.0000
+2023-04-24 15:58:14,391 - mytest - INFO - error rate in theory with OPT RIS: [0.015038 0.004512 0.027869 0.006656]
+2023-04-24 15:58:14,391 - mytest - INFO - error rate in practice with OPT RIS: [0.014214 0.005302 0.027605 0.00681 ]
+2023-04-24 15:58:14,391 - mytest - INFO - Train loss running Proposed: 2.1142
+2023-04-24 15:58:20,758 - mytest - INFO - -----Train loss(testing) ----------- running Proposed: 2.2471
+2023-04-24 15:58:20,758 - mytest - INFO - ------Test acc----- running Proposed: 31.3700
+2023-04-24 15:58:22,925 - mytest - INFO - error rate in theory with OPT RIS: [0.015038 0.004512 0.027869 0.006656]
+2023-04-24 15:58:22,925 - mytest - INFO - error rate in practice with OPT RIS: [0.014762 0.00489  0.028748 0.006536]
+2023-04-24 15:58:22,926 - mytest - INFO - Train loss running Proposed: 2.0401
+2023-04-24 15:58:29,427 - mytest - INFO - -----Train loss(testing) ----------- running Proposed: 2.2215
+2023-04-24 15:58:29,428 - mytest - INFO - ------Test acc----- running Proposed: 37.8000
+2023-04-24 15:58:31,639 - mytest - INFO - error rate in theory with OPT RIS: [0.015038 0.004512 0.027869 0.006656]
+2023-04-24 15:58:31,639 - mytest - INFO - error rate in practice with OPT RIS: [0.015174 0.004205 0.029205 0.006124]
+2023-04-24 15:58:31,639 - mytest - INFO - Train loss running Proposed: 1.9285
